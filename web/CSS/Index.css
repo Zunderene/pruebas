@@ -1,0 +1,76 @@
+/* 
+    Created on : 30-ene-2018, 16:50:43
+    Author     : Hector Gonzalez Guerreiro
+*/
+
+body {
+    background-color:  #f4f4f4;
+}
+
+#Cabecera{
+    background: #e8e8e8;
+    margin: -1% -1% 1% -1%;
+    padding: 1% 1%;
+    width: 100%;
+    border-bottom: solid #ccc;
+    display: inline-flex;
+}
+
+/* Se ocupa del menu debajo de la cabecera. */
+#Menu{
+    margin: -1%;
+    padding: 1%;
+    overflow: hidden;
+    background-color: #333;
+    text-decoration: none;
+}
+
+#Menu > li{
+    float: left;
+    text-decoration: none;
+}
+
+#Menu > li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#Menu > li > a:hover {
+    background-color: #111;
+}
+
+/*----- Display Busqueda ------*/
+
+#formularioSearch {
+    display: flex;
+    margin: 1px;
+    padding: 3px;
+    position: relative;
+}
+
+#formularioSearch input[type=text],button[type=submit]{
+    padding : 7px 7px;
+    margin: 1px 1px;
+}
+
+
+#mensage{
+    font-family: Georgia;
+    margin-left: 15px;
+}
+
+#session{
+    position: absolute;
+    float: bottom;
+    right: 0;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+}
+
+
